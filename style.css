@@ -50,6 +50,7 @@ input{
     height: 100vh;
     width: 100dvw;
     height: 100dvh;
+    text-align: center;
     display: none;
     justify-content: center;
     align-items: center;
