@@ -26,7 +26,8 @@ body{
     align-self: center;
     font-size: 1.5em;
     text-transform: uppercase;
-    margin-top: 250px;
+    margin-top: 150px;
+    margin-bottom: 75px;
 }
 
 #check{
