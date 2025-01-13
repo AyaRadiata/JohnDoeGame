@@ -4,7 +4,7 @@ const body = document.getElementById('body')
 const mainContent = document.getElementById('main_content')
 const thereIsNothing = document.getElementById('there_is_nothing')
 btn.addEventListener('click', ()=>{
-    if(input.value == "TonsOfAshes"){
+    if(input.value.toLowerCase() == "wereheard"){
         body.dataset.open = "true"
         addElement1()
     } else if(input.value.toLowerCase() == "plsdont"){
@@ -81,6 +81,7 @@ function addElement3() {
         <span class="ges_del_proc"> SYS10 > Self-deletion process progress - <span id="procents">0%</span> </span>
         <span class="ges_2"> SYS10 > System successfuly deleted! Thank you for using SYS10! </span>
         <span class="ending_text"> GOOD ENDING! You saved the world</span>
+        <span class="ges_3"> Password To The Truth Is SYS10_1998 </span>
     </div>
     `
     krutilka = document.getElementById('krutilka');

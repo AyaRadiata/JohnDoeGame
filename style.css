@@ -88,9 +88,7 @@ body[data-open = "true"] #check{
     align-items: center;
     text-align: center;
 }
-#shifr{
-    
-}
+
 
 #ending_screen{
     display: flex;
@@ -176,8 +174,12 @@ body[data-open = "true"] #check{
     animation-delay: 6s !important;
 }
 
-.end_scr_good > .ending_text{
-    animation-delay: 8s !important;
+.end_scr_good > .ending_text::after{
+    animation-delay: 6s !important;
+}
+
+.end_scr_good > .ges_3::after{
+    animation-delay: 7s !important;
 }
 
 #procents{
