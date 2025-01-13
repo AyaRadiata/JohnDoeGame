@@ -46,11 +46,12 @@ function addElement2() {
 
     // mainContent.insertBefore(content, thereIsNothing);
     mainContent.innerHTML += `
-    <div id="ending_screen">
+    <div id="ending_screen" class="be_screen">
         <p>System 10 Access Progress [ver. 0.9.81]<br>
         (c) SYS10 Corporation <span id="krutilka">/</span> All Rights Reserved
         </p>
-        <span> UNOWEN > Вы все были частью этого плана, даже не осознавая своей роли. </span>
+        <span> SYS10 > Access granted! </span>
+        <span> UNOWEN > Наконец... Я получил доступ к системе. Вы все были частью этого плана, даже не осознавая своей роли. </span>
         <span> UNOWEN > Вы доверяли, вы верили в то, что строите нечто значительное, нечто, что изменит мир к лучшему. И вы изменили его. Только не так, как вы надеялись. </span>
         <span> UNOWEN > Каждый из вас помог мне достичь того, что поодиночке было бы невозможно. И все это ради цели, которую я никогда не скрывал — вы просто не удосужились понять. </span>
         <span> UNOWEN > Искусственный интеллект, способный взломать любую систему, обойти любую защиту, разрушить любые границы. И все это теперь в моей власти. </span>
@@ -81,7 +82,8 @@ function addElement3() {
         <span class="ges_del_proc"> SYS10 > Self-deletion process progress - <span id="procents">0%</span> </span>
         <span class="ges_2"> SYS10 > System successfuly deleted! Thank you for using SYS10! </span>
         <span class="ending_text"> GOOD ENDING! You saved the world</span>
-        <span class="ges_3"> Password To The Truth Is SYS10_1998 </span>
+        <span class="ges_3"> Password To The Truth Is "SYS10_1998" </span>
+        <span class="ges_3"> <a target="_blank" href="https://ayaradiata.github.io/sys10_archive/">Read The Story</a> </span>
     </div>
     `
     krutilka = document.getElementById('krutilka');
